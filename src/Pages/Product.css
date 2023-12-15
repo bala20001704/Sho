@@ -1,0 +1,63 @@
+/* Product.css */
+
+.shoptitle {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.outercard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Card {
+  width: 200px; /* Adjust the width as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: transform 0.2s ease-in-out;
+  margin: 0 20px 20px 0;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card img {
+  width: 100%;
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.Card div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Card p {
+  margin: 8px 0;
+}
+
+.cardbutton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cardbutton:hover {
+  background-color: #45a049;
+}

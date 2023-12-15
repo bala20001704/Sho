@@ -1,0 +1,12 @@
+/* styles.css */
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  color: #4caf50; /* Green color for success message */
+}
+
+.container p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
